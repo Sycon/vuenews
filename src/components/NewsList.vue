@@ -1,6 +1,5 @@
 <template>
   <div>
-    {{msg}}
   </div>
 </template>
 
@@ -32,6 +31,13 @@
   }
 </script>
 
-<style>
-
+<style scoped>
+  .media-object {
+    width: 128px;
+    padding: 10px;
+  }
+  .media {
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+  }
 </style>
